@@ -23,7 +23,8 @@ if nomeProduto and catproduto and qtdproduto:
     if nomeProduto == "bebidas" and qtdproduto <= 75:
         print(f"Solicitar", catproduto, "à equipe de compras, temos apenas 75 em estoque")
     if nomeProduto == "limpeza" and qtdproduto <= 30:
-        print(f"Solicitar", catproduto, "à equipe de compras, temos apenas 30 em estoque")
+        print(f"Solicitar {catproduto} à equipe de compras, temos apenas 30 em estoque")
 else:
     print("Digite os campos corretamente")
+
 
