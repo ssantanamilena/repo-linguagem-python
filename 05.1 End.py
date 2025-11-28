@@ -1,0 +1,5 @@
+print("milena", end=",")
+print("alex", end=",")
+print("romeu", end=".")
+print("lais", end="  ")
+print("geovana", ".")
